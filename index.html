@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>收款人按钮</title>
+    <style>
+        body {
+            margin: 0;
+            height: 100vh;
+            background-image: url('https://www.loliapi.com/acg/');
+            background-size: cover;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .container {
+            background: rgba(255, 255, 255, 0.8);
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 10px;
+        }
+        .button {
+            padding: 15px;
+            border: none;
+            border-radius: 5px;
+            background-color: #8195e8;
+            color: white;
+            font-size: 16px;
+            cursor: pointer;
+            flex-grow: 1;
+            min-width: 100px;
+            transition: transform 0.3s, background-color 0.3s;
+        }
+        .button:hover {
+            transform: scale(1.05);
+            background-color: #4e90e0;
+        }
+        .button:active {
+            transform: scale(0.95);
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <button class="button" onclick="window.location.href='/Lc_Tiking'">Lc_Tiking</button>
+    <button class="button" onclick="window.location.href='/wyj'">别怕下雨</button>
+    <button class="button" onclick="window.location.href='/tender'"">tender</button>
+</div>
+
+</body>
+</html>
